@@ -68,7 +68,7 @@ class Visualizer:
 
         # Total customers
         total_customers = zone1_count + zone2_count
-        cv2.putText(frame, f"Customers prepared {total_customers} today", (20, 35),
+        cv2.putText(frame, f"Customers prepared {total_customers} cups", (20, 35),
                    cv2.FONT_HERSHEY_SIMPLEX, 0.8, self.config.COLORS['text'], 2)
         
         # Separator line

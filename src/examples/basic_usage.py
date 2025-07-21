@@ -1,14 +1,14 @@
 """Basic usage example for coffee cup counter."""
 
-from src import CoffeeCupCounter
+from src.counter import CoffeeCupCounter
 
 
 def main():
     """Basic usage example."""
     
     # Configuration
-    model_path = 'path/to/your/model.pt'
-    input_video = 'path/to/input/video.mp4'
+    model_path = 'C:\\Users\\ismail\\Downloads\\best (7).pt'
+    input_video = 'C:\\Users\\ismail\\Downloads\\self customer service short 6.mp4'
     output_video = 'output_video.mp4'
 
     # Define zones (4 points each, clockwise from top-left)

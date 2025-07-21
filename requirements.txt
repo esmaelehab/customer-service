@@ -1,4 +1,4 @@
 opencv-python==4.11.0.86
 ultralytics==8.3.168
-numpy==2.0.2
+numpy
 shapely==2.1.1
